@@ -8,7 +8,7 @@ export const AnnouncementBanner = () => {
   if (!isVisible) return null;
 
   return (
-    <div className="bg-uspn-coral text-white py-3 px-4 relative animate-slide-in">
+    <div className="bg-uspn-navy text-white py-3 px-4 relative animate-slide-in">
       <div className="container mx-auto text-center text-sm md:text-base">
         Si vous êtes curieux, créatif et que vous souhaitez inventer les interfaces de demain, venez rencontrer les étudiants et responsables de formation du Master DIMI-Création Numérique à la JPO le 8 février
       </div>

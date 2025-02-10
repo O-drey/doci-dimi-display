@@ -20,8 +20,8 @@ export const ProjectCard = ({ title, description, image, className }: ProjectCar
         />
       </div>
       <div className="p-6">
-        <h3 className="text-xl font-semibold mb-2">{title}</h3>
-        <p className="text-gray-600">{description}</p>
+        <h3 className="text-xl font-semibold mb-2 text-uspn-navy">{title}</h3>
+        <p className="text-uspn-beige">{description}</p>
       </div>
     </Card>
   );

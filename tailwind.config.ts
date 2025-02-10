@@ -21,8 +21,9 @@ export default {
     extend: {
       colors: {
         uspn: {
-          coral: "#E94E1B",
-          gray: "#403E43",
+          navy: "#32354D",
+          beige: "#8E9196",
+          gold: "#C4A572",
           lightGray: "#F5F5F5",
         },
         border: "hsl(var(--border))",

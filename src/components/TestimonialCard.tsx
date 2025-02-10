@@ -13,15 +13,15 @@ export const TestimonialCard = ({ name, year, quote, position }: TestimonialCard
   return (
     <Card className="p-6 h-full flex flex-col">
       <div className="mb-4">
-        <User className="w-12 h-12 text-uspn-coral" />
+        <User className="w-12 h-12 text-uspn-navy" />
       </div>
       <blockquote className="flex-grow">
         <p className="text-gray-600 italic mb-4">{quote}</p>
       </blockquote>
       <div className="mt-4">
-        <p className="font-semibold">{name}</p>
-        <p className="text-sm text-gray-500">{position}</p>
-        <p className="text-sm text-uspn-coral">Promotion {year}</p>
+        <p className="font-semibold text-uspn-navy">{name}</p>
+        <p className="text-sm text-uspn-beige">{position}</p>
+        <p className="text-sm text-uspn-gold">Promotion {year}</p>
       </div>
     </Card>
   );
