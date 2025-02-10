@@ -1,4 +1,3 @@
-
 import { AnnouncementBanner } from "@/components/AnnouncementBanner";
 import { ProjectCard } from "@/components/ProjectCard";
 import { TestimonialCard } from "@/components/TestimonialCard";
@@ -54,6 +53,75 @@ const Index = () => {
                 <li>Partenariats professionnels</li>
                 <li>Équipe pédagogique experte</li>
               </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Cours Section */}
+      <section className="py-20 bg-uspn-lightGray">
+        <div className="container px-4">
+          <div className="max-w-3xl mx-auto text-center mb-16">
+            <h2 className="text-3xl font-bold mb-4">Programme Détaillé</h2>
+            <p className="text-gray-600">
+              Un programme complet pour former des experts en design d'interface et création numérique
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            <div className="space-y-6">
+              <h3 className="text-2xl font-semibold text-uspn-navy mb-6">Semestre 3</h3>
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h4 className="text-lg font-semibold text-uspn-navy mb-3">UE 1 : Conception et Design</h4>
+                <ul className="space-y-2 text-uspn-beige">
+                  <li>• Design d'expérience utilisateur (UX)</li>
+                  <li>• Interface et ergonomie</li>
+                  <li>• Prototypage et maquettage</li>
+                </ul>
+              </div>
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h4 className="text-lg font-semibold text-uspn-navy mb-3">UE 2 : Technologies Web</h4>
+                <ul className="space-y-2 text-uspn-beige">
+                  <li>• Développement front-end avancé</li>
+                  <li>• Frameworks modernes (React, Vue.js)</li>
+                  <li>• Intégration et responsive design</li>
+                </ul>
+              </div>
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h4 className="text-lg font-semibold text-uspn-navy mb-3">UE 3 : Création Numérique</h4>
+                <ul className="space-y-2 text-uspn-beige">
+                  <li>• Motion design et animation</li>
+                  <li>• Design graphique avancé</li>
+                  <li>• Production audiovisuelle</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="space-y-6">
+              <h3 className="text-2xl font-semibold text-uspn-navy mb-6">Semestre 4</h3>
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h4 className="text-lg font-semibold text-uspn-navy mb-3">UE 4 : Gestion de Projet</h4>
+                <ul className="space-y-2 text-uspn-beige">
+                  <li>• Méthodologies agiles</li>
+                  <li>• Management d'équipe</li>
+                  <li>• Budgétisation et planning</li>
+                </ul>
+              </div>
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h4 className="text-lg font-semibold text-uspn-navy mb-3">UE 5 : Innovation</h4>
+                <ul className="space-y-2 text-uspn-beige">
+                  <li>• Nouvelles technologies (AR/VR)</li>
+                  <li>• Design thinking</li>
+                  <li>• Veille technologique</li>
+                </ul>
+              </div>
+              <div className="bg-white rounded-lg p-6 shadow-sm">
+                <h4 className="text-lg font-semibold text-uspn-navy mb-3">UE 6 : Professionnalisation</h4>
+                <ul className="space-y-2 text-uspn-beige">
+                  <li>• Stage ou alternance</li>
+                  <li>• Mémoire professionnel</li>
+                  <li>• Projet de fin d'études</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
