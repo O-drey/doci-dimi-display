@@ -209,6 +209,50 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Débouchés Section */}
+      <section className="py-20">
+        <div className="container px-4">
+          <div className="max-w-3xl mx-auto text-center mb-16">
+            <h2 className="text-3xl font-bold mb-4">Débouchés Professionnels</h2>
+            <p className="text-gray-600">
+              Une formation qui ouvre les portes vers des métiers d'avenir
+            </p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div className="p-6 bg-white rounded-lg shadow-sm">
+              <h3 className="text-xl font-semibold mb-4 text-uspn-navy">Design & Création</h3>
+              <ul className="space-y-3 text-uspn-beige">
+                <li>• UX/UI Designer</li>
+                <li>• Directeur Artistique Digital</li>
+                <li>• Motion Designer</li>
+                <li>• Designer d'Interaction</li>
+                <li>• Lead Designer</li>
+              </ul>
+            </div>
+            <div className="p-6 bg-white rounded-lg shadow-sm">
+              <h3 className="text-xl font-semibold mb-4 text-uspn-navy">Développement</h3>
+              <ul className="space-y-3 text-uspn-beige">
+                <li>• Développeur Front-end</li>
+                <li>• Intégrateur Web</li>
+                <li>• Développeur Full-stack</li>
+                <li>• Lead Developer</li>
+                <li>• Architecte Web</li>
+              </ul>
+            </div>
+            <div className="p-6 bg-white rounded-lg shadow-sm">
+              <h3 className="text-xl font-semibold mb-4 text-uspn-navy">Management</h3>
+              <ul className="space-y-3 text-uspn-beige">
+                <li>• Chef de Projet Digital</li>
+                <li>• Product Owner</li>
+                <li>• Product Manager</li>
+                <li>• Consultant Digital</li>
+                <li>• Entrepreneur Digital</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
