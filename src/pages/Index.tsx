@@ -58,6 +58,38 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Volume Horaire Section */}
+      <section className="py-20 bg-uspn-lightGray">
+        <div className="container px-4">
+          <div className="max-w-3xl mx-auto text-center mb-16">
+            <h2 className="text-3xl font-bold mb-4">Volume Horaire</h2>
+            <p className="text-gray-600">
+              Organisation de la formation sur 2 semestres
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="p-6 bg-white rounded-lg shadow-sm">
+              <h3 className="text-xl font-semibold mb-4">Rythme d'Alternance</h3>
+              <ul className="space-y-3 text-gray-600">
+                <li>3 jours en entreprise</li>
+                <li>2 jours en formation</li>
+                <li>450 heures de formation</li>
+                <li>35 heures par semaine en entreprise</li>
+              </ul>
+            </div>
+            <div className="p-6 bg-white rounded-lg shadow-sm">
+              <h3 className="text-xl font-semibold mb-4">Répartition</h3>
+              <ul className="space-y-3 text-gray-600">
+                <li>Cours magistraux : 150h</li>
+                <li>Travaux dirigés : 150h</li>
+                <li>Projets tutorés : 100h</li>
+                <li>Ateliers pratiques : 50h</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Cours Section */}
       <section className="py-20 bg-uspn-lightGray">
         <div className="container px-4">
